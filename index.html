@@ -1,0 +1,109 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scrollytelling Example</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+<body>
+
+
+
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in metus at dolor pretium laoreet ut a neque. Donec at fringilla justo. Cras in aliquet lorem, vitae tincidunt enim. Nunc sed vestibulum risus, at malesuada felis. Nulla facilisi. Morbi tempor sapien nec tellus scelerisque, et ultrices metus ultricies. Suspendisse potenti. Donec pulvinar fringilla lorem, at semper sem bibendum nec. Nulla aliquet tellus ut diam vulputate, eget tempus nulla facilisis.</p>
+    </div>
+    
+    <div id="scrolly">
+        <figure id="chartContainer">
+            <figcaption class="chart-title">Share of the World's Merchant Fleet Value by Country of Beneficial Ownership, 2023</figcaption>
+            <svg id="pieChart" width="100%" height="100%"></svg>
+        </figure>
+        
+        <article>
+            <div class="step blank-bg" data-step="1">
+                <p><span class="text-box">Ships transport 80% of the world's goods. But the control of the world's merchant fleet lies in the hands of a few countries. </span></p>
+            </div>
+            
+            <div class="step" data-step="2">
+                <p><span class="text-box">  The top ten ship owning countries own a staggering 65% of the world's merchant fleet.</span></p>
+            </div>
+            <div class="step" data-step="3">
+                <p><span class="text-box">If we break down the data, those countries now appear. </span></p>
+            </div>
+            <div class="step" data-step="4">
+                <p><span class="text-box">A barplot paints a clearer picture  of how much each of these countries contributes to the 65% share.</span></p>
+            </div>
+        </article>
+    </div>
+    
+    
+    
+    
+    <!-- Add some dummy text after the scrolly section -->
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in metus at dolor pretium laoreet ut a neque. Donec at fringilla justo. Cras in aliquet lorem, vitae tincidunt enim. Nunc sed vestibulum risus, at malesuada felis. Nulla facilisi. Morbi tempor sapien nec tellus scelerisque, et ultrices metus ultricies. Suspendisse potenti. Donec pulvinar fringilla lorem, at semper sem bibendum nec. Nulla aliquet tellus ut diam vulputate, eget tempus nulla facilisis.</p>
+    </div>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in metus at dolor pretium laoreet ut a neque. Donec at fringilla justo. Cras in aliquet lorem, vitae tincidunt enim. Nunc sed vestibulum risus, at malesuada felis. Nulla facilisi. Morbi tempor sapien nec tellus scelerisque, et ultrices metus ultricies. Suspendisse potenti. Donec pulvinar fringilla lorem, at semper sem bibendum nec. Nulla aliquet tellus ut diam vulputate, eget tempus nulla facilisis.</p>
+    </div>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in metus at dolor pretium laoreet ut a neque. Donec at fringilla justo. Cras in aliquet lorem, vitae tincidunt enim. Nunc sed vestibulum risus, at malesuada felis. Nulla facilisi. Morbi tempor sapien nec tellus scelerisque, et ultrices metus ultricies. Suspendisse potenti. Donec pulvinar fringilla lorem, at semper sem bibendum nec. Nulla aliquet tellus ut diam vulputate, eget tempus nulla facilisis.</p>
+    </div>
+
+
+
+
+    
+    <section id="scrolly2">
+        <figure id="scatterPlotFigure">
+            <h1 id="scatterPlotTitle">GDP vs Merchant Fleet Size</h1>
+            <svg id="scatterPlot" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid meet"></svg>
+        </figure>
+        <article>
+            <div class="step" id="scatter-step-0" data-step="0">
+                <!-- Leave this step empty to push down the scatterplot -->
+            </div>
+            <div class="step" id="scatter-step-1" data-step="1">
+                <p><span class="text-box">Step 1: The size of the merchant fleet should be correlated with the country's economic strength. </span></p>
+            </div>
+            <div class="step" id="scatter-step-2" data-step="2">
+                <p><span class="text-box">Step 2: And indeed if we plot the data points, a clear relationship emerges: the richer the country, the bigger the fleet it owns is.</span></p>
+            </div>
+            <div class="step" id="scatter-step-3" data-step="3">
+                <p><span class="text-box">Step 3: But some countries are punching above their weight, having way bigger fleets than their economic size implies.</span></p>
+            </div>
+        </article>
+    </section>
+    
+    
+
+
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in metus at dolor pretium laoreet ut a neque. Donec at fringilla justo. Cras in aliquet lorem, vitae tincidunt enim. Nunc sed vestibulum risus, at malesuada felis. Nulla facilisi. Morbi tempor sapien nec tellus scelerisque, et ultrices metus ultricies. Suspendisse potenti. Donec pulvinar fringilla lorem, at semper sem bibendum nec. Nulla aliquet tellus ut diam vulputate, eget tempus nulla facilisis.</p>
+    </div>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in metus at dolor pretium laoreet ut a neque. Donec at fringilla justo. Cras in aliquet lorem, vitae tincidunt enim. Nunc sed vestibulum risus, at malesuada felis. Nulla facilisi. Morbi tempor sapien nec tellus scelerisque, et ultrices metus ultricies. Suspendisse potenti. Donec pulvinar fringilla lorem, at semper sem bibendum nec. Nulla aliquet tellus ut diam vulputate, eget tempus nulla facilisis.</p>
+    </div>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in metus at dolor pretium laoreet ut a neque. Donec at fringilla justo. Cras in aliquet lorem, vitae tincidunt enim. Nunc sed vestibulum risus, at malesuada felis. Nulla facilisi. Morbi tempor sapien nec tellus scelerisque, et ultrices metus ultricies. Suspendisse potenti. Donec pulvinar fringilla lorem, at semper sem bibendum nec. Nulla aliquet tellus ut diam vulputate, eget tempus nulla facilisis.</p>
+    </div>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in metus at dolor pretium laoreet ut a neque. Donec at fringilla justo. Cras in aliquet lorem, vitae tincidunt enim. Nunc sed vestibulum risus, at malesuada felis. Nulla facilisi. Morbi tempor sapien nec tellus scelerisque, et ultrices metus ultricies. Suspendisse potenti. Donec pulvinar fringilla lorem, at semper sem bibendum nec. Nulla aliquet tellus ut diam vulputate, eget tempus nulla facilisis.</p>
+    </div>
+    
+
+
+    <script src="https://unpkg.com/scrollama"></script>
+
+    <script src="main.js"></script>
+    <script src="main2.js"></script> <!-- or wherever your JavaScript file is located -->
+</body>
+</html>

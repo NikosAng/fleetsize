@@ -1,0 +1,156 @@
+
+
+/* CSS */
+body{
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5em;
+    background-color: #F2E8DC;
+    color: #01080D;
+    width: 70%;
+    margin: auto;
+}
+
+
+#scrolly, #scrolly2 {
+    position: relative;
+}
+
+#scrolly figure, #scrolly2 figure {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+  
+    position: sticky;
+    top: 0;
+}
+
+#chartContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* This makes the flex items stack vertically */
+    height: 5vh; /* Set a height to allow centering */
+}
+
+#pieChart {
+    width: 80%;
+    height: 80%;
+}
+
+
+  
+
+.blank-bg {
+    background-color: #F2E8DC; /* Change color according to your needs */
+}
+
+
+#scrolly article, #scrolly2 article {
+    position: relative;
+    padding: 0 1rem;
+}
+
+#scrolly .step{
+    margin: 0 auto;
+    width: 40%;
+    height: 50%;
+    padding: 50vh 1rem;
+    border-top: 2px dashed #aaa;
+    font-size: 24px;
+    text-align: center;
+    background-color: #F2E8DC(0, 0, 0, 0.7);
+}
+
+
+.text-box {
+    border: 2px solid #000; /* Border around the text box */
+    padding: 10px; /* Space between the border and the text */
+    background-color: #f0f0f0; /* Light grey background color */
+    color: #000; /* Black text color */
+    border-radius: 5px; /* Rounded borders */
+}
+
+.chart-title {
+    text-align: center;
+    font-size: 24px;  /* Adjust font size as needed */
+    padding: 10px;    /* Optional: add some padding */
+    font-weight: bold; /* Optional: make the text bold */
+    color: #333;      /* Optional: change the text color */
+}
+
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+
+
+
+
+
+
+#scatterPlotFigure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* This makes the flex items stack vertically */
+  
+}
+
+
+#scatterPlot {
+    width: 80%;
+    height: 80%;
+
+}
+
+
+#scatterPlot circle {
+    stroke: black;
+    stroke-width: 2px;
+    opacity: 0.7;
+}
+
+#scatterPlot text {
+    font-size: 10px;
+    pointer-events: none;
+}
+
+#scatter-step-0 {
+    padding: 50vh 1rem;  /* Adjust this value to control how much to push down */
+}
+
+
+
+.step {
+    margin: 0 auto;
+    width: 40%;
+    height: 50%;
+    padding: 50vh 1rem;
+    font-size: 24px;
+    text-align: center;
+    color: black;
+}
+
+.text-box {
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    display: inline-block;
+}
+
+
+
+#scatterPlotTitle {
+    text-align: center;
+}
